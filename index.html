@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EatIt</title>
+    <link rel="icon" type="image/png" href="./Images/favIcon.png">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="logo"><img src="./Images/logo.png" alt="logo" /></div>
+      <div class="options">
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>Restaurants</li></a>
+          <a href="#"><li>Menu</li></a>
+          <a href="#"><li>Offers</li></a>
+          <a href="#"><li>About</li></a>
+        </ul>
+      </div>
+      <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search for food, Restaurants...." />
+      </div>
+      <a href="#"
+        ><div class="heart-logo"><i class="fa-regular fa-heart"></i></div
+      ></a>
+      <a href="#"
+        ><div class="card-logo"><i class="fa-solid fa-cart-shopping"></i></div
+      ></a>
+    </div>
+
+    <!-- hero section -->
+
+    <div id="hero-image-container">
+      <img src="./Images/banner.png" alt="banner" />
+    </div>
+
+    <div id="menu-container">
+      <div>
+      <div class="circle item pizza">
+        <img src="./Images/pizza.png" alt="pizza" />
+      </div>
+      <center>Pizza</center>
+      </div>
+      <div>
+      <div class="circle item burger">
+        <img src="./Images/burger.png" alt="burger" />
+      </div>
+      <center>Burgers</center>
+      </div>
+      <div>
+      <div class="circle item indian">
+        <img src="./Images/indian.png" alt="indian" />
+      </div>
+      <center>Indian</center>
+      </div>
+      <div>
+      <div class="circle item chinese">
+        <img src="./Images/noodles.png" alt="chinese" />
+      </div>
+      <center>Chinese</center>
+      </div>
+      <div>
+      <div class="circle item desserts">
+        <img src="./Images/cake.png" alt="cake" />
+      </div>
+      <center>Desserts</center>
+      </div>
+      <div>
+      <div class="circle item beverages">
+        <img src="./Images/juce.png" alt="beverages" />
+      </div>
+      <center>Beverages</center>
+      </div>
+      <div>
+      <div class="circle item healthy">
+        <img src="./Images/healthy.png" alt="healthy" />
+      </div>
+      <center>Healthy</center>
+      </div>
+    </div>
+
+    <!-- popular picks-->
+
+    <center><h1>Popular Picks</h1></center>
+    <div id="card-container">
+      <div class="upper">
+        <div class="card-text">
+          <p><b>Popular Picks</b></p>
+          <p>Most loved food, just for you</p>
+        </div>
+        <div class="arrow-button">
+          <button><</button>
+          <button>></button>
+        </div>
+      </div>
+      <div class="lower-card-container">
+        <div data-aos="zoom-in" class="card">
+          <div class="card-image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIans-rhbFCtNt3heiNUk2LZ9RXIqSzgRTX__GJsTGOA&s=10"
+              alt="pizza"
+            />
+          </div>
+           <div class="like-button"><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Pizza with topings</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card">
+          <div class="card-image">
+            <img
+              src="https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg"
+              alt="burger"
+            />
+          </div>
+           <div class="like-button"><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Chrispy Chicken Burger</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card">
+          <div class="card-image">
+            <img
+              src="https://myfoodstory.com/wp-content/uploads/2021/07/restaurant-style-paneer-butter-masala-2-500x500.jpg"
+              alt="panner"
+            />
+          </div>
+           <div class="like-button"><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Paneer Butter Masala</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card">
+          <div class="card-image">
+            <img
+              src="https://cdn.mygingergarlickitchen.com/images/800px/800px-veg-chezwan-noodles-recipe-9.jpg"
+              alt="noodles"
+            />
+          </div>
+           <div class="like-button"><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Veg Hakka Noodles</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" class="card">
+          <div class="card-image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsHTSGGBvtwHpA9R_MWeCJLjPLGn6Bm5e0etObZpL1DWMlZPKcj1o04YAo&s=10"
+              alt="brownie"
+            />
+          </div>
+           <div class="like-button"><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Chocolate Brownie</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="container2">
+      <div class="banner-image2"><img src="./Images/banner2.png" alt="" /></div>
+      <div class="banner-image2"><img src="./Images/banner3.png" alt="" /></div>
+    </div>
+
+
+    <center><h1>New Arivals</h1></center>
+
+    <div id="container3">
+         <div class="card" data-aos="flip-left">
+          <div class="card-image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIans-rhbFCtNt3heiNUk2LZ9RXIqSzgRTX__GJsTGOA&s=10"
+              alt="pizza"
+            />
+          </div>
+           <div class="like-button" ><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Pizza with topings</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-right" class="card">
+          <div class="card-image">
+            <img
+              src="https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg"
+              alt="burger"
+            />
+          </div>
+           <div class="like-button"><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Chrispy Chicken Burger</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left" class="card">
+          <div class="card-image">
+            <img
+              src="https://myfoodstory.com/wp-content/uploads/2021/07/restaurant-style-paneer-butter-masala-2-500x500.jpg"
+              alt="panner"
+            />
+          </div>
+           <div class="like-button"><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Paneer Butter Masala</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-right" class="card">
+          <div class="card-image">
+            <img
+              src="https://cdn.mygingergarlickitchen.com/images/800px/800px-veg-chezwan-noodles-recipe-9.jpg"
+              alt="noodles"
+            />
+          </div>
+           <div class="like-button"><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Veg Hakka Noodles</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left" class="card">
+          <div class="card-image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsHTSGGBvtwHpA9R_MWeCJLjPLGn6Bm5e0etObZpL1DWMlZPKcj1o04YAo&s=10"
+              alt="brownie"
+            />
+          </div>
+           <div class="like-button"><i class="fa-regular fa-heart"></i></div>
+          <div class="inner-card-text">
+            <p>Chocolate Brownie</p>
+            <p><i class="fa-solid fa-star"></i>4.7 <sub>(1.2k)</sub></p>
+          </div>
+          <div class="price">
+            Rs199
+            <div class="card-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+
+    <footer>
+        <div id="footer-container">
+            <div class="footer-logo"><img src="./Images/logo.png" alt="logo"></div>
+            <p>About | Partner With Us | Help Center | Terms & Conditions | Privacy Policy | Contact</p>
+       
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <p>Developer@Raj Kumar Shukla</p>
+        </div>
+         </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+  </body>
+</html>
