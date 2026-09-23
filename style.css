@@ -84,6 +84,7 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  row-gap: 20px;
 }
 
 .circle {
@@ -217,7 +218,7 @@ a {
 }
 .banner-image2 img {
   height: 300px;
-  width: 47% auto;
+  width: 47% auto ;
   border-radius: 20px;
 }
 
@@ -256,10 +257,19 @@ a {
 
 
 @media screen and (max-width: 768px) {
+
   .search {
     display: none;
   }
   .options ul{
     flex-wrap: wrap;
+  }
+  #hero-image-container img{
+    width: 400px;
+    height: 200px;
+  }
+  .banner-image2 img{
+    width: 400px;
+    height: 200px;
   }
 }
