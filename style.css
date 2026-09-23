@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 #navbar {
@@ -17,7 +18,7 @@
 }
 .logo img {
   height: 80px;
-  width: 110px;
+  width: 100px;
 }
 .options {
   height: 80px;
@@ -240,7 +241,7 @@ a {
   margin-top: 30px;
   min-height: 150px;
   width: 100%;
-  background-color: rgb(101, 101, 101);
+  background-color: black;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -248,8 +249,8 @@ a {
   flex-wrap: wrap;
 }
 .footer-logo img {
-  height: 100px;
-  width: 200px;
+  height: 120px;
+  width: 150px;
 }
 #footer-container p {
   font-size: 20px;
