@@ -19,8 +19,8 @@
   <body>
     <div id="navbar">
       <div class="logo"><img src="./Images/logo.png" alt="logo" /></div>
-      <div class="options">
-        <ul>
+      <div  class="options ">
+        <ul id="navlinks" class="navlinks active">
           <a href="#"><li>Home</li></a>
           <a href="#"><li>Restaurants</li></a>
           <a href="#"><li>Menu</li></a>
@@ -28,6 +28,7 @@
           <a href="#"><li>About</li></a>
         </ul>
       </div>
+      <button class="hamburger" onclick="openNavbar()"><i class="fa-solid fa-bars"></i></button>
       <div class="search">
           <i class="fa-solid fa-magnifying-glass"></i>
         <input type="text" placeholder="Search for food, Restaurants...." />
@@ -42,9 +43,7 @@
 
     <!-- hero section -->
 
-    <div id="hero-image-container">
-      <img src="./Images/banner.png" alt="banner" />
-    </div>
+    <div id="hero-image-container"></div>
 
     <div id="menu-container">
       <div>
@@ -325,10 +324,16 @@
         </div>
          </div>
     </footer>
+    <script>
+        function openNavbar() {
+            navlinks.classList.toggle("active")
+        }
+    </script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
   AOS.init();
 </script>
+ 
   </body>
 </html>
